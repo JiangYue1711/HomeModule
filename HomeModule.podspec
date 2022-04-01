@@ -1,14 +1,14 @@
 Pod::Spec.new do |s|
 
   s.name         = "HomeModule"
-  s.version      = "0.0.1"
+  s.version      = "0.0.2"
   s.summary      = "HomeModule is a ...."
-  s.homepage     = "https://github.com/xxx"
+  s.homepage     = "https://github.com/JiangYue1711/HomeModule.git"
   s.license      = "MIT"
   s.author       = {
                     "xxx" => "xxx@gmail.com",
                     }
-  s.source        = { :git => "https://github.com/xxx/HomeModule.git", :tag => "#{s.version}" }
+  s.source        = { :git => "https://github.com/JiangYue1711/HomeModule.git", :tag => "#{s.version}" }
   s.source_files  = "Classes/*.{h,m}"
   s.resources = "Resources/*.png"
   s.requires_arc  = true
